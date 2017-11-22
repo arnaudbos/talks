@@ -1,0 +1,59 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      <!-- Header -->
+      {{ partial "header" . }}
+      <div class="container">
+        <h3 class="blog-post">Talks</h3>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="list talks">
+                {{ range $i, $el := .Data.Pages.GroupByParam "group" }}
+                {{ if gt (len .Pages) 0 }}
+                  <h3>{{ .Key }}:</h3>
+                  <ul>
+                  {{ range $j, $el := .Pages }}
+                    <li style="list-style-type: circle;">
+                      <h5 onclick="$('#fold_{{ $i }}_{{ $j }}').toggleClass('hidden');">
+                        <a>{{ .Title | markdownify }}</a>
+                      </h5>
+                      <div id="fold_{{ $i }}_{{ $j }}" class="fold hidden">
+                        <div class="fold content">
+                          {{ .Description }}
+                        </div>
+                        <iframe
+                          src="https://www.youtube.com/embed/{{ .Params.video }}"
+                          frameborder="0"
+                          width="395"
+                          height="255"
+                          gesture="media"
+                          allowfullscreen="true"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          style="margin-left: -40px; margin-right: 10px;">
+                        </iframe>
+                        <iframe
+                          src="https://docs.google.com/presentation/d/e/{{ .Params.googleslide }}/embed?start=false&loop=false&delayms=10000"
+                          frameborder="0"
+                          width="395"
+                          height="255"
+                          allowfullscreen="true"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          style="float: right;">
+                        </iframe>
+                      </div>
+                    </li>
+                  {{ end }}
+                  </ul>
+                {{end}}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    {{ partial "footer" . }}
+  </body>
+</html>
