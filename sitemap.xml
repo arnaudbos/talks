@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://talks.arnaudbos.com/voxxed-days-ticino-2019-untangled/</loc>
+    <lastmod>2019-10-05T11:15:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://talks.arnaudbos.com/toujouse-devfest-2018-architecture-decision-records/</loc>
     <lastmod>2018-11-08T14:05:00+01:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>http://talks.arnaudbos.com/</loc>
-    <lastmod>2018-11-08T14:05:00+01:00</lastmod>
+    <lastmod>2019-10-05T11:15:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
