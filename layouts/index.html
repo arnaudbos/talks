@@ -19,8 +19,13 @@
                       </h5>
                       <div id="fold_{{ $i }}_{{ $j }}" class="fold hidden">
                         <div class="fold content">
-                          {{ .Description }}
+                          {{ .Description | markdownify }}
+                          {{ if isset .Params "abstract" }}
+                          <br/><strong><em>Abstract:</em></strong><br/>
+                          {{ .Params.abstract | markdownify }}
+                          {{ end }}
                         </div>
+                        {{ if isset .Params "video" }}
                         <iframe
                           src="https://www.youtube.com/embed/{{ .Params.video }}"
                           frameborder="0"
@@ -32,6 +37,8 @@
                           webkitallowfullscreen="true"
                           style="margin-left: -40px; margin-right: 10px;">
                         </iframe>
+                        {{ end }}
+                        {{ if isset .Params "googleslide" }}
                         <iframe
                           src="https://docs.google.com/presentation/d/e/{{ .Params.googleslide }}/embed?start=false&loop=false&delayms=10000"
                           frameborder="0"
@@ -42,6 +49,19 @@
                           webkitallowfullscreen="true"
                           style="float: right;">
                         </iframe>
+                        {{ end }}
+                        {{ if isset .Params "slideshare" }}
+                        <iframe
+                          src="//www.slideshare.net/slideshow/embed_code/key/{{ .Params.slideshare }}"
+                          frameborder="0"
+                          width="395"
+                          height="255"
+                          allowfullscreen="true"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          style="float: right;">
+                          </iframe>
+                        {{ end }}
                       </div>
                     </li>
                   {{ end }}
