@@ -12,7 +12,7 @@
                 {{ if gt (len .Pages) 0 }}
                   <h3>{{ .Key }}:</h3>
                   <ul>
-                  {{ range $j, $el := .Pages }}
+                  {{ range $j, $el := .Pages.ByDate }}
                     <li style="list-style-type: circle;">
                       <h5 onclick="$('#fold_{{ $i }}_{{ $j }}').toggleClass('hidden');">
                         <a>{{ .Title | markdownify }}</a>
