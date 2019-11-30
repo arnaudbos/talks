@@ -6,10 +6,28 @@
     <description>Recent content on Arnaud Bos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 05 Oct 2019 11:15:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2019 19:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://talks.arnaudbos.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Loom — La concurrence sans s&#39;emmêler les ficelles — Montpellier JUG 2019 (FR)</title>
+      <link>http://talks.arnaudbos.com/jug-montpellier-2019-untangled/</link>
+      <pubDate>Wed, 20 Nov 2019 19:00:00 +0100</pubDate>
+      
+      <guid>http://talks.arnaudbos.com/jug-montpellier-2019-untangled/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Untangled — Sneak peek at Project Loom — Voxxed Days Cluj-Napoca 2019 (EN)</title>
+      <link>http://talks.arnaudbos.com/voxxed-days-cluj-2019-untangled/</link>
+      <pubDate>Thu, 31 Oct 2019 16:45:00 +0100</pubDate>
+      
+      <guid>http://talks.arnaudbos.com/voxxed-days-cluj-2019-untangled/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Untangled — Sneak peek at Project Loom — Voxxed Days Ticino 2019 (EN)</title>
@@ -39,7 +57,7 @@
     </item>
     
     <item>
-      <title>Project Loom — La concurrence au bout du fil — JUG SummerCamp 2019 (FR)</title>
+      <title>Projet Loom — La concurrence au bout du fil — JUG SummerCamp 2019 (FR)</title>
       <link>http://talks.arnaudbos.com/jug-summer-camp-2019-loom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
