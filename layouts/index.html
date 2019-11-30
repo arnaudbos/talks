@@ -17,9 +17,11 @@
                       <h5 onclick="$('#fold_{{ $i }}_{{ $j }}').toggleClass('hidden');">
                         <a>{{ .Title | markdownify }}</a>
                       </h5>
-                      <div id="fold_{{ $i }}_{{ $j }}" class="fold hidden">
+                      <div id="fold_{{ $i }}_{{ $j }}" class="fold hidden" style="padding-bottom: 40px;">
                         <div class="fold content">
+                          {{ if isset .Params "description" }}
                           {{ .Description | markdownify }}
+                          {{ end }}
                           {{ if isset .Params "abstract" }}
                           <br/><strong><em>Abstract:</em></strong><br/>
                           {{ .Params.abstract | markdownify }}
@@ -30,7 +32,7 @@
                           src="https://www.youtube.com/embed/{{ .Params.video }}"
                           frameborder="0"
                           width="395"
-                          height="255"
+                          height="238"
                           gesture="media"
                           allowfullscreen="true"
                           mozallowfullscreen="true"
@@ -43,7 +45,7 @@
                           src="https://docs.google.com/presentation/d/e/{{ .Params.googleslide }}/embed?start=false&loop=false&delayms=10000"
                           frameborder="0"
                           width="395"
-                          height="255"
+                          height="238"
                           allowfullscreen="true"
                           mozallowfullscreen="true"
                           webkitallowfullscreen="true"
@@ -55,12 +57,28 @@
                           src="//www.slideshare.net/slideshow/embed_code/key/{{ .Params.slideshare }}"
                           frameborder="0"
                           width="395"
-                          height="255"
+                          height="238"
                           allowfullscreen="true"
                           mozallowfullscreen="true"
                           webkitallowfullscreen="true"
                           style="float: right;">
                           </iframe>
+                        {{ end }}
+                        {{ if isset .Params "speakerdeck" }}
+                        {{- $url := printf "https://speakerdeck.com/oembed.json?url=https://speakerdeck.com/arnaudbos/%s&maxheight=255" .Params.speakerdeck -}}
+                        {{- $json := getJSON $url -}}
+                        {{ $deckId := $json.html | replaceRE `.*src="//speakerdeck.com/player/([0-9a-z]*)\".*` "${1}" }}
+                        <iframe
+                                src="//speakerdeck.com/player/{{substr $deckId 0 -1}}"
+                                frameborder="0"
+                                width="395"
+                                height="238"
+                                allowtransparency="true"
+                                allowfullscreen="allowfullscreen"
+                                mozallowfullscreen="true"
+                                webkitallowfullscreen="true"
+                                style="border:0; padding:0; margin:0; background:transparent; float: right;">
+                        </iframe>
                         {{ end }}
                       </div>
                     </li>
