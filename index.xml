@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arnaud Bos</title>
-    <link>http://talks.arnaudbos.com/</link>
+    <link>https://talks.arnaudbos.com/</link>
     <description>Recent content on Arnaud Bos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 20 Nov 2019 19:00:00 +0100</lastBuildDate>
     
-	<atom:link href="http://talks.arnaudbos.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://talks.arnaudbos.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Loom — La concurrence sans s&#39;emmêler les ficelles — Montpellier JUG 2019 (FR)</title>
-      <link>http://talks.arnaudbos.com/jug-montpellier-2019-untangled/</link>
+      <link>https://talks.arnaudbos.com/jug-montpellier-2019-untangled/</link>
       <pubDate>Wed, 20 Nov 2019 19:00:00 +0100</pubDate>
       
-      <guid>http://talks.arnaudbos.com/jug-montpellier-2019-untangled/</guid>
+      <guid>https://talks.arnaudbos.com/jug-montpellier-2019-untangled/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Untangled — Sneak peek at Project Loom — Voxxed Days Cluj-Napoca 2019 (EN)</title>
-      <link>http://talks.arnaudbos.com/voxxed-days-cluj-2019-untangled/</link>
+      <link>https://talks.arnaudbos.com/voxxed-days-cluj-2019-untangled/</link>
       <pubDate>Thu, 31 Oct 2019 16:45:00 +0100</pubDate>
       
-      <guid>http://talks.arnaudbos.com/voxxed-days-cluj-2019-untangled/</guid>
+      <guid>https://talks.arnaudbos.com/voxxed-days-cluj-2019-untangled/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Untangled — Sneak peek at Project Loom — Voxxed Days Ticino 2019 (EN)</title>
-      <link>http://talks.arnaudbos.com/voxxed-days-ticino-2019-untangled/</link>
+      <link>https://talks.arnaudbos.com/voxxed-days-ticino-2019-untangled/</link>
       <pubDate>Sat, 05 Oct 2019 11:15:00 +0100</pubDate>
       
-      <guid>http://talks.arnaudbos.com/voxxed-days-ticino-2019-untangled/</guid>
+      <guid>https://talks.arnaudbos.com/voxxed-days-ticino-2019-untangled/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Architecture Decision Records — Toulouse DevFest 2018 (FR)</title>
-      <link>http://talks.arnaudbos.com/toujouse-devfest-2018-architecture-decision-records/</link>
+      <link>https://talks.arnaudbos.com/toujouse-devfest-2018-architecture-decision-records/</link>
       <pubDate>Thu, 08 Nov 2018 14:05:00 +0100</pubDate>
       
-      <guid>http://talks.arnaudbos.com/toujouse-devfest-2018-architecture-decision-records/</guid>
+      <guid>https://talks.arnaudbos.com/toujouse-devfest-2018-architecture-decision-records/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introduction to Clojure — Toulouse Java User Group November 2017 (FR)</title>
-      <link>http://talks.arnaudbos.com/toujouse-jug-clojure-intro/</link>
+      <link>https://talks.arnaudbos.com/toujouse-jug-clojure-intro/</link>
       <pubDate>Thu, 09 Nov 2017 20:00:00 +0100</pubDate>
       
-      <guid>http://talks.arnaudbos.com/toujouse-jug-clojure-intro/</guid>
+      <guid>https://talks.arnaudbos.com/toujouse-jug-clojure-intro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projet Loom — La concurrence au bout du fil — JUG SummerCamp 2019 (FR)</title>
-      <link>http://talks.arnaudbos.com/jug-summer-camp-2019-loom/</link>
+      <link>https://talks.arnaudbos.com/jug-summer-camp-2019-loom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://talks.arnaudbos.com/jug-summer-camp-2019-loom/</guid>
+      <guid>https://talks.arnaudbos.com/jug-summer-camp-2019-loom/</guid>
       <description></description>
     </item>
     
