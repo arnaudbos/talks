@@ -3,7 +3,8 @@ title: "[Conf] Architecture Decision Records — Toulouse DevFest 2018 (FR)"
 date: 2018-11-08T14:05:00+01:00
 parent: talks
 group: "Methods"
-abstract: "Les développeurs aiment écrire de la documentation... ou pas ! Pourtant même les plus réfractaires doivent l'admettre, garder une trace des décisions techniques prises au cours d'un projet peut s'avérer indispensable pour la pérennité et maintenabilité de celui-ci.
+abstract: "
+Les développeurs aiment écrire de la documentation... ou pas ! Pourtant même les plus réfractaires doivent l'admettre, garder une trace des décisions techniques prises au cours d'un projet peut s'avérer indispensable pour la pérennité et maintenabilité de celui-ci.
 
 
 Alors comment éviter l'obsolescence programmée de la documentation, tout en réduisant la pénibilité de la rédaction ?

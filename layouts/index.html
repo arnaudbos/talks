@@ -22,6 +22,10 @@
                           {{ if isset .Params "description" }}
                           {{ .Description | markdownify }}
                           {{ end }}
+                          {{ if isset .Params "link" }}
+                          <br/><strong><em>Link:</em></strong>
+                          {{ .Params.link | markdownify }}
+                          {{ end }}
                           {{ if isset .Params "abstract" }}
                           <br/><strong><em>Abstract:</em></strong><br/>
                           {{ .Params.abstract | markdownify }}
