@@ -27,9 +27,21 @@
                           {{ .Params.abstract | markdownify }}
                           {{ end }}
                         </div>
-                        {{ if isset .Params "video" }}
+                        {{ if isset .Params "youtube" }}
                         <iframe
-                          src="https://www.youtube.com/embed/{{ .Params.video }}"
+                          src="https://www.youtube.com/embed/{{ .Params.youtube }}"
+                          frameborder="0"
+                          width="395"
+                          height="238"
+                          gesture="media"
+                          allowfullscreen="true"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          style="margin-left: -40px; margin-right: 10px;">
+                        </iframe>
+                        {{ else if (isset .Params "crowdcast") }}
+                        <iframe
+                          src="https://www.crowdcast.io/e/{{ .Params.crowdcast }}?navlinks=false&embed=true"
                           frameborder="0"
                           width="395"
                           height="238"

@@ -1,5 +1,5 @@
 ---
-title: Untangled — Sneak peek at Project Loom — Voxxed Days Cluj-Napoca 2019 (EN)
+title: "[Conf] Untangled — Sneak peek at Project Loom — Voxxed Days Cluj-Napoca 2019 (EN)"
 date: 2019-10-31T16:45:00+01:00
 parent: talks
 group: "Java"
@@ -12,6 +12,6 @@ During this talk, we'll get weaving, show code samples and talk about project Lo
 
 We will talk about project Loom's inception and recent prototypes. You will also see its mesh goes far beyond “simple“ primitives to revolutionize the JVM.
 "
-video: 6uPmCiJzjhs
+youtube: 6uPmCiJzjhs
 speakerdeck: untangled-sneak-peek-at-project-loom-29919efd-c13b-464e-b149-433d6eeeb344
 ---

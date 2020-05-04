@@ -1,6 +1,6 @@
 ---
-title: "[Meetup] Loom — La concurrence sans s'emmêler les ficelles — Montpellier JUG 2019 (FR)"
-date: 2019-11-20T19:00:00+01:00
+title: "[Webinar] Loom — La concurrence sans s'emmêler les ficelles — Bordeaux JUG 2020 (FR)"
+date: 2020-04-30T19:00:00+02:00
 parent: talks
 group: "Java"
 abstract: "
@@ -14,10 +14,7 @@ Au fil de cette présentation (em)mêlée d'exemples de code, vous découvrirez 
 
 
 Nous aborderons ensemble l'origine de Loom et ses récents prototypes. Vous vous apercevrez que son maillage va au delà de ”simples” primitives et peut nous amener jusqu'à révolutionner la concurrence sur la JVM.
-
-
-Et en attendant la révolution vous verrez comment vous familiariser avec ces concepts sans tirer trop sur la corde, en utilisant la librairie Quasar.
 "
-youtube: CmVuQOI7qVU
-speakerdeck: la-concurrence-sans-semmeler-les-ficelles-avec-project-loom
+crowdcast: bordeauxjug-2020-04-loom
+speakerdeck: la-concurrence-sans-semmeler-les-ficelles-avec-project-loom-daaa9783-1e2e-44c5-94fe-e4514bd5b1a0
 ---

@@ -1,5 +1,5 @@
 ---
-title: Architecture Decision Records — Toulouse DevFest 2018 (FR)
+title: "[Conf] Architecture Decision Records — Toulouse DevFest 2018 (FR)"
 date: 2018-11-08T14:05:00+01:00
 parent: talks
 group: "Methods"
@@ -15,8 +15,8 @@ Depuis près d'un an, dans mon équipe, nous utilisons un format simple, les Arc
 Durant cette présentation vous construirez en direct un ADR. En partant d'un problème constaté sur un projet, vous élaborerez une réponse technique qui servira de base à une implémentation ultérieure. Vous décrirez les raisons qui vous poussent à faire des compromis, tout en capturant le contexte dans lequel cette décision a été prise pour référence future.
 
 
-Réconciliez vous avec votre documentation !
+Réconciliez-vous avec votre documentation !
 "
-video: EDYplU1PB5s
+youtube: EDYplU1PB5s
 speakerdeck: architecture-decision-records-reconciliez-vous-avec-votre-documentation
 ---
