@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arnaud Bos</title>
@@ -71,6 +71,15 @@
       <pubDate>Thu, 09 Nov 2017 20:00:00 +0100</pubDate>
       
       <guid>https://talks.arnaudbos.com/toujouse-jug-clojure-intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Conf] Bienvenue à TLA-La-Land (intro à la vérification logicielle) — Toulouse DevFest 2023</title>
+      <link>https://talks.arnaudbos.com/toulouse-devfest-2023-tla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://talks.arnaudbos.com/toulouse-devfest-2023-tla/</guid>
       <description></description>
     </item>
     

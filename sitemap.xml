@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://talks.arnaudbos.com/jug-bordeaux-2020-loom/</loc>
+    <lastmod>2020-04-30T19:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://talks.arnaudbos.com/</loc>
     <lastmod>2020-04-30T19:00:00+02:00</lastmod>
   </url>
   
@@ -38,23 +43,19 @@
   </url>
   
   <url>
-    <loc>https://talks.arnaudbos.com/</loc>
-    <lastmod>2020-04-30T19:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://talks.arnaudbos.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://talks.arnaudbos.com/tags/</loc>
-    <priority>0</priority>
+    <loc>https://talks.arnaudbos.com/toulouse-devfest-2023-tla/</loc>
   </url>
   
   <url>
     <loc>https://talks.arnaudbos.com/jug-summer-camp-2019-loom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://talks.arnaudbos.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://talks.arnaudbos.com/tags/</loc>
   </url>
   
 </urlset>
